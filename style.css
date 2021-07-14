@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body{font-family: 'Poppins', sans-serif;
+margin:0;}
+
+/* header styles */
+
+header{
+    background-color:blueviolet;
+}
+/* first section styles */
+
+/* intro styles */
+
+.first_section{
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+grid-column-gap: 102px;}
+.banner >img{width: 100%;}
+.first_section h1{font-size: 64px;
+font-weight: 700;}
+.heading{width: 485 px;
+height: 230px;
+margin-top: 207px;
+margin-left: 156px;
+margin-bottom: 71px;}
+.button{width: 168px;
+height: 44px;
+border: brown 1px solid;
+margin-left: 156px;
+margin-bottom: 169px;
+display: flex;
+align-items: center;
+justify-content:space-evenly;
+}
+.heading h1{color: white;}
+.button{color: white;
+background-color: #E02C6D;}
+
+/* banner styles */
+
+.banner{width: 556.01px;
+height: 438px;
+margin-top: 153px;
+margin-right: 140.99px;
+margin-bottom: 86px;}
+
+
+/* players section styles */
+
+.players_section{display: grid;
+grid-template-columns: repeat(3, 1fr);
+grid-row-gap: 27px;
+margin-top: 70px;
+margin-left: 180px;
+margin-right: 210px;}
+.player{
+    width: 330px;
+height: 474px;
+box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+display: flex;
+flex-direction: column;
+align-items:  center;
+
+}
+.player_photo{
+    width: 300px;
+height: 256px;
+margin-top: 15px;}
+.player_photo>img {width: 100%;
+height: 100%;}
+.player_info{width: 300px;
+height: 154px;}
+
+/* features section styles
+ */
+ .website-features_section{
+     margin-top: 165px;
+     margin-left: 182px;
+     margin-right: 156px;
+ }
+ .feature_one,.feature_two,.feature_three{
+     display: grid;
+     grid-template-columns: repeat(2, 1fr);
+     width: 100%;
+     margin-bottom: 6%;
+
+ }
+ .feature_info{margin-top: 59px;
+width: 469px;
+height: 309px;}
+.feature_info>.button{margin-left: 0;
+margin-bottom: 0;}
+.feature_banner>img{width: 567px;
+height: 427px;}
+.feature_title{font-size: 48px;
+font-weight: 700;}
+.feature_two>.feature_info{margin-left: 10%;
+margin-top: 5%;}
+
